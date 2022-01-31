@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+* {
+    font-family:'Mochiy Pop P One', cursive;
+}
+body {
+    margin: 0% auto;
+}
+header.header {
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+}
+header.header img {
+    width: 80px;
+}
+section.top-page {
+    background: url('../img/pasta.jpg');
+    background-size: cover;
+    height: 30vh;
+    padding: 25px;
+    /* background-color: hotpink; */
+}
+
+/* landing page */
+
+.landing-page {
+    padding: 20px 50px;
+    /* background: red; */
+}
+
+.big-title{
+    font-family: 'Patua One', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 80px;
+    /* background-color: tomato; */
+}
+
+.scroll-down {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+}
+/* Navigation menu */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* background-color: red; */
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li {
+    color: white;
+}
+
+/* Section service */
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.services-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-details {
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #473E3D;
+    width: 200px;
+    text-align: center;
+    /* background-color: greenyellow; */
+
+}
+.delivery-icon {
+    font-size: 50px;
+    color: #473E3D;
+}
